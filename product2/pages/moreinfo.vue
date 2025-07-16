@@ -16,7 +16,7 @@ const router = useRouter();
 onMounted(() => {
   window.parent.postMessage(
     { url: "http://localhost:3002/moreinfo" },
-    "http://localhost:3000"
+    "https://frame-project-sable.vercel.app/mainPage"
   );
 });
 function toMain() {
@@ -25,7 +25,7 @@ function toMain() {
   });
   window.parent.postMessage(
     { url: "http://localhost:3002" },
-    "http://localhost:3000"
+    "https://frame-project-sable.vercel.app/mainPage"
   );
 }
 </script>
