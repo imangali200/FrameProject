@@ -15,7 +15,7 @@
 const router = useRouter();
 onMounted(() => {
   window.parent.postMessage(
-    { url: "http://localhost:3002/moreinfo" },
+    { url: "https://frame-project-mljf.vercel.app/moreinfo" },
     "https://frame-project-sable.vercel.app/mainPage"
   );
 });
@@ -24,7 +24,7 @@ function toMain() {
     path: "/",
   });
   window.parent.postMessage(
-    { url: "http://localhost:3002" },
+    { url: "https://frame-project-sable.vercel.app/mainPage" },
     "https://frame-project-sable.vercel.app/mainPage"
   );
 }
