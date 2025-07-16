@@ -25,7 +25,7 @@ function toMain() {
   });
   window.parent.postMessage(
     { url: "https://frame-project-sable.vercel.app/mainPage" },
-    "https://frame-project-sable.vercel.app/mainPage"
+    "https://frame-project-mljf.vercel.app/"
   );
 }
 </script>
