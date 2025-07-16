@@ -13,7 +13,6 @@
 
 <script setup>
 const router = useRouter();
-console.log("hello")
 onMounted(() => {
   window.parent.postMessage(
     { url: "http://localhost:3002/moreinfo" },
