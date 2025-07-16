@@ -50,12 +50,10 @@ onMounted(() => {
     if (event.data.url) {
       router.push({ query: { url: event.data.url } });
       iframeValue.value = event.data.url;
-      console.log(event.data.url)
+      console.log(event.data.url);
     }
-    
   });
 });
 </script>
-
 
 <style scoped></style>
