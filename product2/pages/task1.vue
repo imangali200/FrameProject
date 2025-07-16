@@ -10,7 +10,7 @@
 onMounted(() => {
   window.parent.postMessage(
     { url: "http://localhost:3002/task1" },
-    "http://localhost:3000"
+    "https://frame-project-sable.vercel.app/mainPage"
   );
 });
 </script>
