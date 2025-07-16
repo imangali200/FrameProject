@@ -16,7 +16,7 @@ const router = useRouter();
 onMounted(() => {
   window.parent.postMessage(
     { url: "https://frame-project-mljf.vercel.app/moreinfo" },
-    "https://frame-project-mljf.vercel.app"
+    "https://frame-project-mljf.vercel.app/"
   );
 });
 function toMain() {
