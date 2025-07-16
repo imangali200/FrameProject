@@ -11,7 +11,7 @@
             Product1
           </p>
           <p
-            @click="iframeValue = 'http://localhost:3002'"
+            @click="iframeValue = 'https://frame-project-mljf.vercel.app'"
             class="tw-text-[18px]"
           >
             Product2
@@ -36,7 +36,7 @@
 import { onMounted, ref } from "vue";
 import { useRoute, useRouter } from "vue-router";
 
-const iframeValue = ref("http://localhost:3002");
+const iframeValue = ref("https://frame-project-mljf.vercel.app");
 const route = useRoute();
 const router = useRouter();
 
